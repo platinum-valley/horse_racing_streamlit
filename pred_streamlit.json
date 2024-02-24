@@ -1,0 +1,2282 @@
+{
+    "2024": {
+        "0224": {
+            "06": {
+                "05": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1225",
+                    "JyoCD": "06",
+                    "Jyo": "\u4e2d\u5c71",
+                    "Kaiji": 2,
+                    "Nichiji": 1,
+                    "RaceNum": "05",
+                    "Syubetu": "3\u6b73\u9650\u5b9a",
+                    "Jyoken": "\u672a\u52dd\u5229\u30af\u30e9\u30b9",
+                    "Kyori": 2000,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30dd\u30fc\u30e9\u30fc\u30b7\u30e5\u30c6\u30eb\u30f3",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u539f\u512a\u4ecb",
+                            "Futan": 54,
+                            "ShowProbability": 0.21604383282959874
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "1",
+                            "Bamei": "\u30e4\u30eb\u30e4\u30f3",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30ad\u30f3\u30b0",
+                            "Futan": 55,
+                            "ShowProbability": 0.08987391274663827
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "2",
+                            "Bamei": "\u30b5\u30c4\u30ad\u30ce\u30b8\u30e7\u30a6",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e09\u6d66\u7687\u6210",
+                            "Futan": 55,
+                            "ShowProbability": 0.44566524733413215
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "2",
+                            "Bamei": "\u30b4\u30fc\u30eb\u30c7\u30f3\u30eb\u30fc\u30ad\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6728\u5e61\u5de7\u4e5f",
+                            "Futan": 57,
+                            "ShowProbability": 0.11741876052832763
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "3",
+                            "Bamei": "\u30b7\u30e3\u30c8\u30eb\u30c8\u30a6\u30b7\u30e7\u30a6",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5c0f\u6797\u52dd\u592a",
+                            "Futan": 52,
+                            "ShowProbability": 0.14037456883666072
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "3",
+                            "Bamei": "\u30d2\u30e1\u30a4\u30c1\u30d0\u30f3",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u7684\u5834\u52c7\u4eba",
+                            "Futan": 55,
+                            "ShowProbability": 0.22770887670917692
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "4",
+                            "Bamei": "\u30a4\u30c7\u30a2\u30a4\u30b4\u30c3\u30bd\u30a6",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6b66\u58eb\u6ca2\u53cb",
+                            "Futan": 57,
+                            "ShowProbability": 0.11434211837730074
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "4",
+                            "Bamei": "\u30d5\u30a3\u30aa\u30eb\u30c0\u30ea\u30fc\u30be",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6c38\u91ce\u731b\u8535",
+                            "Futan": 56,
+                            "ShowProbability": 0.065967755089809
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "5",
+                            "Bamei": "\u30a2\u30aa\u30a4\u30df\u30e2\u30b6",
+                            "Barei": 3,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u5185\u7530\u535a\u5e78",
+                            "Futan": 57,
+                            "ShowProbability": 0.24991222778092997
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "5",
+                            "Bamei": "\u30b1\u30a4\u30c4\u30fc\u30eb\u30d4\u30a2",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6a2a\u5c71\u7409\u4eba",
+                            "Futan": 54,
+                            "ShowProbability": 0.36472177527797517
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "6",
+                            "Bamei": "\u30de\u30a4\u30cd\u30eb\u30d0\u30fc\u30c6\u30af\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u77f3\u6a4b\u8129",
+                            "Futan": 57,
+                            "ShowProbability": 0.32815303609946955
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "6",
+                            "Bamei": "\u30ad\u30e7\u30a6\u30a8\u30a4\u30d5\u30ed\u30a4\u30c7",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u83c5\u539f\u660e\u826f",
+                            "Futan": 55,
+                            "ShowProbability": 0.13671394474036708
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "7",
+                            "Bamei": "\u30d0\u30e9\u30f3\u30b9\u30c0\u30f3\u30b5\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u7530\u8fba\u88d5\u4fe1",
+                            "Futan": 55,
+                            "ShowProbability": 0.5884812946192799
+                        },
+                        "13": {
+                            "Umaban": "14",
+                            "Wakuban": "7",
+                            "Bamei": "\u30c7\u30f3\u30c6\u30a3\u30d9\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6238\u5d0e\u572d\u592a",
+                            "Futan": 57,
+                            "ShowProbability": 0.34141332038659206
+                        },
+                        "14": {
+                            "Umaban": "15",
+                            "Wakuban": "8",
+                            "Bamei": "\u30c7\u30a3\u30a2\u30e2\u30f3\u30af\u30fc\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u9bab\u5cf6\u514b\u99ff",
+                            "Futan": 55,
+                            "ShowProbability": 0.14867755192625975
+                        },
+                        "15": {
+                            "Umaban": "16",
+                            "Wakuban": "8",
+                            "Bamei": "\u30d2\u30e9\u30dc\u30af\u30d2\u30fc\u30ed\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5927\u91ce\u62d3\u5f25",
+                            "Futan": 57,
+                            "ShowProbability": 0.1370561190733804
+                        }
+                    }
+                },
+                "07": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1325",
+                    "JyoCD": "06",
+                    "Jyo": "\u4e2d\u5c71",
+                    "Kaiji": 2,
+                    "Nichiji": 1,
+                    "RaceNum": "07",
+                    "Syubetu": "3\u6b73\u9650\u5b9a",
+                    "Jyoken": "1\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1600,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30c7\u30d3\u30c3\u30c9\u30c6\u30bd\u30fc\u30ed",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u539f\u512a\u4ecb",
+                            "Futan": 56,
+                            "ShowProbability": 0.0985749916201799
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30ed\u30a2\u30ce\u30fc\u30af\u30c6\u30bd\u30fc\u30ed",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6728\u5e61\u5de7\u4e5f",
+                            "Futan": 55,
+                            "ShowProbability": 0.1670928347011965
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30ab\u30a4\u30de\u30ca\u30a8\u30ec\u30a8\u30ec",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6b66\u85e4\u96c5",
+                            "Futan": 55,
+                            "ShowProbability": 0.1512137685403421
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30ad\u30e3\u30e9\u30e1\u30eb\u30df\u30eb\u30af",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u83c5\u539f\u9686\u4e00",
+                            "Futan": 55,
+                            "ShowProbability": 0.11526640196923693
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "5",
+                            "Bamei": "\u30a2\u30a4\u30d5\u30a1\u30fc\u30d0\u30c8\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u85e4\u7530\u83dc\u4e03",
+                            "Futan": 55,
+                            "ShowProbability": 0.32648408007604324
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "6",
+                            "Bamei": "\u30b8\u30e5\u30f3\u30d1\u30ef\u30d5\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5c0f\u6797\u52dd\u592a",
+                            "Futan": 52,
+                            "ShowProbability": 0.12933341716146518
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "6",
+                            "Bamei": "\u30b6\u30c3\u30c4",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5ca9\u90e8\u7d14\u4e8c",
+                            "Futan": 57,
+                            "ShowProbability": 0.07559816696878105
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "7",
+                            "Bamei": "\u30ef\u30a4\u30c9\u30d6\u30ea\u30b6\u30fc\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30ad\u30f3\u30b0",
+                            "Futan": 57,
+                            "ShowProbability": 0.09656292155053275
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "7",
+                            "Bamei": "\u30b7\u30e5\u30f4\u30a1\u30eb\u30a8\u30ec",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5409\u7530\u8c4a",
+                            "Futan": 57,
+                            "ShowProbability": 0.13672830642449227
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "8",
+                            "Bamei": "\u30f4\u30a3\u30f4\u30a1\u30af\u30e9\u30a6\u30f3",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5927\u91ce\u62d3\u5f25",
+                            "Futan": 57,
+                            "ShowProbability": 0.43130849991655307
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "8",
+                            "Bamei": "\u30d5\u30a9\u30fc\u30b6\u30dc\u30fc\u30a4\u30ba",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e09\u6d66\u7687\u6210",
+                            "Futan": 55,
+                            "ShowProbability": 0.5433148613185714
+                        }
+                    }
+                },
+                "09": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1435",
+                    "JyoCD": "06",
+                    "Jyo": "\u4e2d\u5c71",
+                    "Kaiji": 2,
+                    "Nichiji": 1,
+                    "RaceNum": "09",
+                    "Syubetu": "3\u6b73\u9650\u5b9a",
+                    "Jyoken": "1\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 2200,
+                    "Title": "\u6c34\u4ed9\u8cde",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30c9\u30f3\u30a2\u30ec\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5185\u7530\u535a\u5e78",
+                            "Futan": 57,
+                            "ShowProbability": 0.45432094626863245
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30ea\u30a2\u30ec\u30b9\u30c8",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30ad\u30f3\u30b0",
+                            "Futan": 57,
+                            "ShowProbability": 0.43583613429786794
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30bf\u30fc\u30b3\u30a4\u30ba\u30d5\u30ea\u30f3\u30b8",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6238\u5d0e\u572d\u592a",
+                            "Futan": 57,
+                            "ShowProbability": 0.4553209137638004
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30de\u30a4\u30cd\u30eb\u30d5\u30e9\u30f3\u30c4",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6d25\u6751\u660e\u79c0",
+                            "Futan": 57,
+                            "ShowProbability": 0.30427768693729745
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "5",
+                            "Bamei": "\u30af\u30ea\u30b9\u30de\u30b9\u30d1\u30ec\u30fc\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u77f3\u5ddd\u88d5\u7d00",
+                            "Futan": 55,
+                            "ShowProbability": 0.422564481953126
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "6",
+                            "Bamei": "\u30a4\u30f3\u30da\u30ea\u30a2\u30eb\u30e2\u30fc\u30c8",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u77f3\u6a4b\u8129",
+                            "Futan": 57,
+                            "ShowProbability": 0.11589142894993831
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "7",
+                            "Bamei": "\u30a2\u30fc\u30b9\u30a4\u30aa\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6a2a\u5c71\u548c\u751f",
+                            "Futan": 57,
+                            "ShowProbability": 0.17252631691192044
+                        }
+                    }
+                },
+                "10": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1510",
+                    "JyoCD": "06",
+                    "Jyo": "\u4e2d\u5c71",
+                    "Kaiji": 2,
+                    "Nichiji": 1,
+                    "RaceNum": "10",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "2\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1800,
+                    "Title": "\u5bcc\u91cc\u7279\u5225",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30cd\u30a4\u30d3\u30fc\u30b9\u30bf\u30fc",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6238\u5d0e\u572d\u592a",
+                            "Futan": 57,
+                            "ShowProbability": 0.35797076820272444
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30e2\u30f3\u30bf\u30ca\u30a2\u30b2\u30fc\u30c8",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u77f3\u5ddd\u88d5\u7d00",
+                            "Futan": 58,
+                            "ShowProbability": 0.5333546692991024
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30c8\u30fc\u30bb\u30f3\u30c8\u30e9\u30e0",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u539f\u512a\u4ecb",
+                            "Futan": 57,
+                            "ShowProbability": 0.11397565513179124
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30b7\u30e5\u30bf\u30fc\u30eb\u30f4\u30a3\u30f3\u30c8",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u9bab\u5cf6\u514b\u99ff",
+                            "Futan": 57,
+                            "ShowProbability": 0.548590881121644
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "5",
+                            "Bamei": "\u30ca\u30c3\u30af\u30a4\u30eb\u30b7\u30fc\u30d6",
+                            "Barei": 6,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6728\u5e61\u5de7\u4e5f",
+                            "Futan": 58,
+                            "ShowProbability": 0.1123364191946385
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "5",
+                            "Bamei": "\u30e9\u30fc\u30c6\u30eb",
+                            "Barei": 4,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u4e38\u7530\u606d\u4ecb",
+                            "Futan": 57,
+                            "ShowProbability": 0.24865974723174872
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "6",
+                            "Bamei": "\u30f4\u30a3\u30b4\u30e9\u30b9\u30c0\u30f3\u30b5\u30fc",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6d25\u6751\u660e\u79c0",
+                            "Futan": 56,
+                            "ShowProbability": 0.19456605730951473
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "6",
+                            "Bamei": "\u30de\u30a4\u30cd\u30eb\u30cb\u30b3\u30e9\u30b9",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u67f4\u7530\u5927\u77e5",
+                            "Futan": 58,
+                            "ShowProbability": 0.49085917504782284
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "7",
+                            "Bamei": "\u30d5\u30a3\u30c7\u30ea\u30aa\u30b0\u30ea\u30fc\u30f3",
+                            "Barei": 8,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u91ce\u4e2d\u60a0\u592a",
+                            "Futan": 58,
+                            "ShowProbability": 0.10402314776082446
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "7",
+                            "Bamei": "\u30a4\u30f3\u30b9\u30bf\u30ad\u30f3\u30b0",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30ad\u30f3\u30b0",
+                            "Futan": 57,
+                            "ShowProbability": 0.28242664915656596
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "8",
+                            "Bamei": "\u30e9\u30a8\u30fc\u30eb",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6a2a\u5c71\u548c\u751f",
+                            "Futan": 56,
+                            "ShowProbability": 0.1468762459095247
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "8",
+                            "Bamei": "\u30a8\u30fc\u30d7\u30e9\u30b9",
+                            "Barei": 6,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u77f3\u6a4b\u8129",
+                            "Futan": 56,
+                            "ShowProbability": 0.4409034568531138
+                        }
+                    }
+                },
+                "11": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1545",
+                    "JyoCD": "06",
+                    "Jyo": "\u4e2d\u5c71",
+                    "Kaiji": 2,
+                    "Nichiji": 1,
+                    "RaceNum": "11",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "3\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1600,
+                    "Title": "\u5e55\u5f35\u30b9\u30c6\u30fc\u30af\u30b9",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b9\u30ba\u30cf\u30ed\u30fc\u30e0",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u9bab\u5cf6\u514b\u99ff",
+                            "Futan": 58,
+                            "ShowProbability": 0.5583324050569245
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30cb\u30b7\u30ce\u30b9\u30fc\u30d9\u30cb\u30a2",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5927\u91ce\u62d3\u5f25",
+                            "Futan": 58,
+                            "ShowProbability": 0.36784143261582053
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30b9\u30d7\u30ec\u30e2\u30d5\u30ec\u30a4\u30d0\u30fc",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6a2a\u5c71\u548c\u751f",
+                            "Futan": 58,
+                            "ShowProbability": 0.41041769204967044
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30d9\u30ac\u30ea\u30b9",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u85e4\u61f8\u8cb4\u5fd7",
+                            "Futan": 56,
+                            "ShowProbability": 0.42667661425461195
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "5",
+                            "Bamei": "\u30cb\u30b7\u30ce\u30e9\u30a4\u30b3\u30a6",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5185\u7530\u535a\u5e78",
+                            "Futan": 58,
+                            "ShowProbability": 0.3044012328826565
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "6",
+                            "Bamei": "\u30d6\u30e9\u30f3\u30c7\u30fc\u30ed\u30c3\u30af",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u67f4\u7530\u5584\u81e3",
+                            "Futan": 58,
+                            "ShowProbability": 0.11578826866897454
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "6",
+                            "Bamei": "\u30db\u30a6\u30aa\u30a6\u30e9\u30b9\u30ab\u30fc\u30ba",
+                            "Barei": 6,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6238\u5d0e\u572d\u592a",
+                            "Futan": 56,
+                            "ShowProbability": 0.3274800115751264
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "7",
+                            "Bamei": "\u30cb\u30e5\u30fc\u30ce\u30fc\u30de\u30eb",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u83c5\u539f\u660e\u826f",
+                            "Futan": 56,
+                            "ShowProbability": 0.20878465125269244
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "7",
+                            "Bamei": "\u30bb\u30f3\u30bf\u30fc\u30b9\u30ea\u30fc\u30eb",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6728\u5e61\u5de7\u4e5f",
+                            "Futan": 56,
+                            "ShowProbability": 0.12108895418163153
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "8",
+                            "Bamei": "\u30c9\u30a5\u30e9\u30e2\u30f3\u30c9",
+                            "Barei": 6,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6d25\u6751\u660e\u79c0",
+                            "Futan": 58,
+                            "ShowProbability": 0.16240669161201787
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "8",
+                            "Bamei": "\u30c7\u30a3\u30aa\u30b9\u30d0\u30ea\u30a8\u30f3\u30c6",
+                            "Barei": 6,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u30ad\u30f3\u30b0",
+                            "Futan": 58,
+                            "ShowProbability": 0.3000958778334429
+                        }
+                    }
+                }
+            },
+            "09": {
+                "05": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1215",
+                    "JyoCD": "09",
+                    "Jyo": "\u962a\u795e",
+                    "Kaiji": 1,
+                    "Nichiji": 1,
+                    "RaceNum": "05",
+                    "Syubetu": "3\u6b73\u9650\u5b9a",
+                    "Jyoken": "\u672a\u52dd\u5229\u30af\u30e9\u30b9",
+                    "Kyori": 2000,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b3\u30fc\u30e9\u30eb\u30e0\u30fc\u30f3",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u7530\u53e3\u8cab\u592a",
+                            "Futan": 54,
+                            "ShowProbability": 0.493358488797414
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30a2\u30b9\u30af\u30ab\u30e0\u30aa\u30f3\u30e2\u30a2",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5317\u6751\u53cb\u4e00",
+                            "Futan": 57,
+                            "ShowProbability": 0.21457357061215251
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30c7\u30a3\u30fc\u30ac\u30ec\u30b8\u30a7\u30f3\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u677e\u5c71\u5f18\u5e73",
+                            "Futan": 57,
+                            "ShowProbability": 0.34068027286468966
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30b5\u30f3\u30d6\u30ce\u30ef",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30e0\u30eb\u30b6\u30d0",
+                            "Futan": 57,
+                            "ShowProbability": 0.6265580897056113
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "4",
+                            "Bamei": "\u30ca\u30ea\u30bf\u30de\u30d5\u30c7\u30a3\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5ddd\u5cf6\u4fe1\u4e8c",
+                            "Futan": 55,
+                            "ShowProbability": 0.06832071539745
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "5",
+                            "Bamei": "\u30d8\u30b6\u30eb\u30d5\u30a7\u30f3",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6a2a\u5c71\u5178\u5f18",
+                            "Futan": 57,
+                            "ShowProbability": 0.2751147063449243
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "5",
+                            "Bamei": "\u30ab\u30eb\u30c6\u30e1\u30c8\u30ec\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u52a0\u85e4\u7965\u592a",
+                            "Futan": 55,
+                            "ShowProbability": 0.07273169727420173
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "6",
+                            "Bamei": "\u30f4\u30a3\u30fc\u30ca\u30b9\u30a6\u30a4\u30f3\u30ba",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u677e\u82e5\u98a8\u99ac",
+                            "Futan": 55,
+                            "ShowProbability": 0.21457357061215251
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "6",
+                            "Bamei": "\u30b7\u30e5\u30ac\u30fc\u30af\u30f3",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6b66\u8c4a",
+                            "Futan": 57,
+                            "ShowProbability": 0.4520435195271153
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "7",
+                            "Bamei": "\u30bb\u30fc\u30e9\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u53e4\u5ddd\u5948\u7a42",
+                            "Futan": 51,
+                            "ShowProbability": 0.21262221264260778
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "7",
+                            "Bamei": "\u30b7\u30f3\u30af\u30b0\u30c3\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30eb\u30e1\u30fc\u30c8",
+                            "Futan": 57,
+                            "ShowProbability": 0.21457357061215251
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "8",
+                            "Bamei": "\u30b5\u30e9\u30c8\u30ac\u30c1\u30c3\u30d7\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5ca9\u7530\u671b\u6765",
+                            "Futan": 57,
+                            "ShowProbability": 0.30631714672473787
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "8",
+                            "Bamei": "\u30c1\u30a7\u30eb\u30d3\u30c3\u30af",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u897f\u6751\u6df3\u4e5f",
+                            "Futan": 55,
+                            "ShowProbability": 0.10095106669230372
+                        }
+                    }
+                },
+                "07": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1315",
+                    "JyoCD": "09",
+                    "Jyo": "\u962a\u795e",
+                    "Kaiji": 1,
+                    "Nichiji": 1,
+                    "RaceNum": "07",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "1\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1600,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30e8\u30a6\u30b7\u30bf\u30f3\u30ec\u30a4",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4eca\u6751\u8056\u5948",
+                            "Futan": 53,
+                            "ShowProbability": 0.1316330445220798
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "1",
+                            "Bamei": "\u30c8\u30ec\u30c1\u30fc\u30e1",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30eb\u30e1\u30fc\u30c8",
+                            "Futan": 58,
+                            "ShowProbability": 0.44852770574660433
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "2",
+                            "Bamei": "\u30bf\u30ac\u30ce\u30df\u30a2",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u89d2\u7530\u5927\u6cb3",
+                            "Futan": 55,
+                            "ShowProbability": 0.12136548864773615
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "2",
+                            "Bamei": "\u30aa\u30fc\u30b7\u30e3\u30f3\u30c8\u30e9\u30a4\u30d6",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30e0\u30eb\u30b6\u30d0",
+                            "Futan": 58,
+                            "ShowProbability": 0.16425054903636382
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "3",
+                            "Bamei": "\u30a4\u30f4\u30a3\u30b9\u30c6\u30e9",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5ca9\u7530\u5eb7\u8aa0",
+                            "Futan": 56,
+                            "ShowProbability": 0.13780177641581126
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "3",
+                            "Bamei": "\u30d1\u30eb\u30af\u30ea\u30c1\u30e5\u30fc\u30c9",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u897f\u6751\u6df3\u4e5f",
+                            "Futan": 56,
+                            "ShowProbability": 0.3066018332688437
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "4",
+                            "Bamei": "\u30b3\u30f3\u30c8\u30c7\u30a3\u30f4\u30a7\u30fc\u30eb",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u9152\u4e95\u5b66",
+                            "Futan": 56,
+                            "ShowProbability": 0.24193530642206812
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "4",
+                            "Bamei": "\u30ec\u30ac\u30fc\u30df",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u53e4\u5ddd\u5409\u6d0b",
+                            "Futan": 56,
+                            "ShowProbability": 0.08288705130692849
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "5",
+                            "Bamei": "\u30ed\u30fc\u30c9\u30b9\u30d1\u30a4\u30e9\u30eb",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5ca9\u7530\u671b\u6765",
+                            "Futan": 58,
+                            "ShowProbability": 0.07964257732576882
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "5",
+                            "Bamei": "\u30a6\u30a4\u30f3\u30d0\u30ea\u30aa\u30b9",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\uff2d\uff0e\u30c7\u30e0",
+                            "Futan": 58,
+                            "ShowProbability": 0.087778725074303
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "6",
+                            "Bamei": "\u30c7\u30c3\u30c9\u30ea\u30fc",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e2d\u4e95\u88d5\u4e8c",
+                            "Futan": 56,
+                            "ShowProbability": 0.19902180562872462
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "6",
+                            "Bamei": "\u30c0\u30ce\u30f3\u30d6\u30ea\u30b6\u30fc\u30c9",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u677e\u5c71\u5f18\u5e73",
+                            "Futan": 58,
+                            "ShowProbability": 0.5735953809637749
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "7",
+                            "Bamei": "\u30c9\u30ea\u30a2\u30fc\u30c9",
+                            "Barei": 6,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u7530\u53e3\u8cab\u592a",
+                            "Futan": 55,
+                            "ShowProbability": 0.13685851199271326
+                        },
+                        "13": {
+                            "Umaban": "14",
+                            "Wakuban": "7",
+                            "Bamei": "\u30dd\u30eb\u30c8\u30c9\u30fc\u30eb",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5e78\u82f1\u660e",
+                            "Futan": 58,
+                            "ShowProbability": 0.12418802498558909
+                        },
+                        "14": {
+                            "Umaban": "15",
+                            "Wakuban": "8",
+                            "Bamei": "\u30b9\u30a4\u30fc\u30d7\u30a2\u30ef\u30fc\u30ba",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6b66\u8c4a",
+                            "Futan": 58,
+                            "ShowProbability": 0.34229369696460704
+                        },
+                        "15": {
+                            "Umaban": "16",
+                            "Wakuban": "8",
+                            "Bamei": "\u30e1\u30a4\u30b7\u30e7\u30a6\u30bf\u30af\u30dc\u30af",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u592a\u5bb0\u5553\u4ecb",
+                            "Futan": 58,
+                            "ShowProbability": 0.09891992117125004
+                        },
+                        "16": {
+                            "Umaban": "17",
+                            "Wakuban": "8",
+                            "Bamei": "\u30c0\u30fc\u30af\u30e2\u30fc\u30c9",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5317\u6751\u53cb\u4e00",
+                            "Futan": 58,
+                            "ShowProbability": 0.2398056976324057
+                        }
+                    }
+                },
+                "09": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1425",
+                    "JyoCD": "09",
+                    "Jyo": "\u962a\u795e",
+                    "Kaiji": 1,
+                    "Nichiji": 1,
+                    "RaceNum": "09",
+                    "Syubetu": "3\u6b73\u9650\u5b9a",
+                    "Jyoken": "\u30aa\u30fc\u30d7\u30f3\u30af\u30e9\u30b9",
+                    "Kyori": 2200,
+                    "Title": "\u3059\u307f\u308c\u30b9\u30c6\u30fc\u30af\u30b9",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b7\u30e7\u30a6\u30ca\u30f3\u30cf\u30a6\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u677e\u82e5\u98a8\u99ac",
+                            "Futan": 57,
+                            "ShowProbability": 0.20594150310672066
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30b8\u30e5\u30fc\u30f3\u30c6\u30a4\u30af",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5ca9\u7530\u671b\u6765",
+                            "Futan": 57,
+                            "ShowProbability": 0.300501488985043
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30e1\u30ea\u30aa\u30fc\u30ec\u30e0",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u897f\u6751\u6df3\u4e5f",
+                            "Futan": 57,
+                            "ShowProbability": 0.4777230571753466
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30db\u30a6\u30aa\u30a6\u30d7\u30ed\u30b5\u30f3\u30b2",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30e0\u30eb\u30b6\u30d0",
+                            "Futan": 57,
+                            "ShowProbability": 0.2697077382332703
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "5",
+                            "Bamei": "\u30ab\u30fc\u30e1\u30eb\u30bf\u30b6\u30a4\u30c8",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5317\u6751\u53cb\u4e00",
+                            "Futan": 57,
+                            "ShowProbability": 0.5476911587015241
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "6",
+                            "Bamei": "\u30b8\u30f3\u30bb\u30a4",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6b66\u8c4a",
+                            "Futan": 57,
+                            "ShowProbability": 0.5912199911742861
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "7",
+                            "Bamei": "\u30a6\u30a3\u30fc\u30d7\u30c7\u30a3\u30e9\u30a4\u30c8",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u677e\u5c71\u5f18\u5e73",
+                            "Futan": 57,
+                            "ShowProbability": 0.22859107387381833
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "7",
+                            "Bamei": "\u30df\u30ab\u30a8\u30eb\u30d1\u30b7\u30e3",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6c60\u6dfb\u8b19\u4e00",
+                            "Futan": 57,
+                            "ShowProbability": 0.5323028492075433
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "8",
+                            "Bamei": "\u30b5\u30f3\u30e9\u30a4\u30ba\u30a2\u30fc\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\uff2d\uff0e\u30c7\u30e0",
+                            "Futan": 57,
+                            "ShowProbability": 0.44126958167082053
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "8",
+                            "Bamei": "\u30f4\u30a3\u30ec\u30e0",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u30eb\u30e1\u30fc\u30c8",
+                            "Futan": 57,
+                            "ShowProbability": 0.35885726079053903
+                        }
+                    }
+                },
+                "12": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1610",
+                    "JyoCD": "09",
+                    "Jyo": "\u962a\u795e",
+                    "Kaiji": 1,
+                    "Nichiji": 1,
+                    "RaceNum": "12",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "2\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1200,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30f4\u30a3\u30a2\u30c9\u30ed\u30ed\u30fc\u30b5",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5317\u6751\u53cb\u4e00",
+                            "Futan": 58,
+                            "ShowProbability": 0.16610631316634306
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30eb\u30fc\u30d5",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u30e0\u30eb\u30b6\u30d0",
+                            "Futan": 56,
+                            "ShowProbability": 0.3858289527060912
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30b0\u30e9\u30f3\u30c4\u30d9\u30ea\u30fc",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u53e4\u5ddd\u5948\u7a42",
+                            "Futan": 52,
+                            "ShowProbability": 0.2909360031506462
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30d6\u30e9\u30fc\u30f4",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u89d2\u7530\u5927\u6cb3",
+                            "Futan": 57,
+                            "ShowProbability": 0.11374635071138113
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "5",
+                            "Bamei": "\u30c7\u30eb\u30de\u30ab\u30df\u30fc\u30e9",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u677e\u82e5\u98a8\u99ac",
+                            "Futan": 56,
+                            "ShowProbability": 0.17303395926206577
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "6",
+                            "Bamei": "\u30ad\u30bf\u30ce\u30a8\u30af\u30b9\u30d7\u30ec\u30b9",
+                            "Barei": 6,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u56fd\u5206\u512a\u4f5c",
+                            "Futan": 58,
+                            "ShowProbability": 0.43206329995768855
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "7",
+                            "Bamei": "\u30a4\u30f3\u30d7\u30ed\u30d0\u30a4\u30b6\u30fc",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u897f\u6751\u6df3\u4e5f",
+                            "Futan": 58,
+                            "ShowProbability": 0.2262548460460821
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "7",
+                            "Bamei": "\u30b9\u30af\u30eb\u30d7\u30c8\u30fc\u30ea\u30b9",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u7530\u53e3\u8cab\u592a",
+                            "Futan": 55,
+                            "ShowProbability": 0.3548377667197421
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "8",
+                            "Bamei": "\u30a6\u30a9\u30fc\u30bf\u30fc\u30eb\u30b0\u30e9\u30f3",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u677e\u5c71\u5f18\u5e73",
+                            "Futan": 56,
+                            "ShowProbability": 0.22777112648112877
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "8",
+                            "Bamei": "\u30b7\u30e7\u30a6\u30ca\u30f3\u30de\u30c3\u30cf",
+                            "Barei": 5,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u5ca9\u7530\u5eb7\u8aa0",
+                            "Futan": 58,
+                            "ShowProbability": 0.28986625685120465
+                        }
+                    }
+                }
+            },
+            "10": {
+                "02": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1015",
+                    "JyoCD": "10",
+                    "Jyo": "\u5c0f\u5009",
+                    "Kaiji": 2,
+                    "Nichiji": 5,
+                    "RaceNum": "02",
+                    "Syubetu": "3\u6b73\u9650\u5b9a",
+                    "Jyoken": "\u672a\u52dd\u5229\u30af\u30e9\u30b9",
+                    "Kyori": 1200,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30ed\u30de\u30f3\u30b9\u30b7\u30a2\u30bf\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e80\u7530\u6e29\u5fc3",
+                            "Futan": 55,
+                            "ShowProbability": 0.43877554450796935
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b4\u30fc\u30a4\u30f3\u30de\u30a4\u30a6\u30a7\u30a4",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u83ca\u6ca2\u4e00\u6a39",
+                            "Futan": 57,
+                            "ShowProbability": 0.4445575118059762
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "2",
+                            "Bamei": "\u30b3\u30b9\u30e2\u30de\u30c1\u30e5\u30a2\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5c0f\u6797\u7f8e\u99d2",
+                            "Futan": 51,
+                            "ShowProbability": 0.1547845866839025
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "2",
+                            "Bamei": "\u30a8\u30af\u30b9\u30c8\u30e9\u30d0\u30c3\u30af",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5409\u7530\u96bc\u4eba",
+                            "Futan": 57,
+                            "ShowProbability": 0.4584274640892266
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "3",
+                            "Bamei": "\u30ca\u30e0\u30e9\u30ed\u30fc\u30ba\u30de\u30ea\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u85e4\u5ca1\u5eb7\u592a",
+                            "Futan": 55,
+                            "ShowProbability": 0.6114829391006388
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "3",
+                            "Bamei": "\u30b9\u30a6\u30a3\u30fc\u30c8\u30ea\u30ef\u30fc\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u79cb\u5c71\u771f\u4e00",
+                            "Futan": 55,
+                            "ShowProbability": 0.5442450367614439
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "4",
+                            "Bamei": "\u30b0\u30e9\u30b9\u30c1\u30a2\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6c34\u6cbc\u5143\u8f1d",
+                            "Futan": 52,
+                            "ShowProbability": 0.17886000933877172
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "4",
+                            "Bamei": "\u30c8\u30f3\u30c8\u30f3\u30d7\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4f50\u85e4\u7fd4\u99ac",
+                            "Futan": 54,
+                            "ShowProbability": 0.0727117227305165
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "5",
+                            "Bamei": "\u30bb\u30d6\u30f3\u30bb\u30b3\u30f3\u30ba",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u56fd\u5206\u606d\u4ecb",
+                            "Futan": 55,
+                            "ShowProbability": 0.29113418224540905
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "5",
+                            "Bamei": "\u30b5\u30d0\u30a4\u30d0\u30eb\u30ea\u30d9\u30e9\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u571f\u7530\u771f\u7fd4",
+                            "Futan": 52,
+                            "ShowProbability": 0.10206624309443921
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "6",
+                            "Bamei": "\u30b7\u30e3\u30a4\u30cb\u30f3\u30b0\u30d9\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5bcc\u7530\u6681",
+                            "Futan": 55,
+                            "ShowProbability": 0.11177607808219012
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "6",
+                            "Bamei": "\u30d5\u30a3\u30af\u30b9\u30c8\u30b9\u30bf\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u9edb\u5f18\u4eba",
+                            "Futan": 57,
+                            "ShowProbability": 0.07310832380537968
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "7",
+                            "Bamei": "\u30b3\u30fc\u30f3\u30c8\u30c3\u30d7\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u897f\u585a\u6d38\u4e8c",
+                            "Futan": 53,
+                            "ShowProbability": 0.08177999011723122
+                        },
+                        "13": {
+                            "Umaban": "14",
+                            "Wakuban": "7",
+                            "Bamei": "\u30a8\u30af\u30ec\u30b7\u30a2",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e38\u5c71\u5143\u6c17",
+                            "Futan": 55,
+                            "ShowProbability": 0.14199349033275274
+                        },
+                        "14": {
+                            "Umaban": "15",
+                            "Wakuban": "7",
+                            "Bamei": "\u30db\u30fc\u30ae\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e39\u5185\u7950\u6b21",
+                            "Futan": 57,
+                            "ShowProbability": 0.10101666773427814
+                        },
+                        "15": {
+                            "Umaban": "16",
+                            "Wakuban": "8",
+                            "Bamei": "\u30cf\u30af\u30b5\u30f3\u30af\u30ea\u30b9\u30bf\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u548c\u7530\u7adc\u4e8c",
+                            "Futan": 55,
+                            "ShowProbability": 0.10453825264444036
+                        },
+                        "16": {
+                            "Umaban": "17",
+                            "Wakuban": "8",
+                            "Bamei": "\u30a4\u30ba\u30b8\u30e7\u30fc\u30b4\u30e2\u30ea\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6c38\u5cf6\u307e\u306a",
+                            "Futan": 52,
+                            "ShowProbability": 0.23947577054329033
+                        },
+                        "17": {
+                            "Umaban": "18",
+                            "Wakuban": "8",
+                            "Bamei": "\u30ad\u30f3\u30b0\u30d7\u30ed\u30d5\u30a3\u30c3\u30c8",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u52dd\u6d66\u6b63\u6a39",
+                            "Futan": 57,
+                            "ShowProbability": 0.10225870843352299
+                        }
+                    }
+                },
+                "05": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1205",
+                    "JyoCD": "10",
+                    "Jyo": "\u5c0f\u5009",
+                    "Kaiji": 2,
+                    "Nichiji": 5,
+                    "RaceNum": "05",
+                    "Syubetu": "3\u6b73\u9650\u5b9a",
+                    "Jyoken": "\u672a\u52dd\u5229\u30af\u30e9\u30b9",
+                    "Kyori": 2000,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b4\u30fc\u30b8\u30e7\u30cb\u30fc\u30b4\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u85e4\u5ca1\u5eb7\u592a",
+                            "Futan": 57,
+                            "ShowProbability": 0.19558773938695898
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b5\u30ce\u30ce\u30b9\u30d4\u30fc\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u9edb\u5f18\u4eba",
+                            "Futan": 57,
+                            "ShowProbability": 0.06875412697406567
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "2",
+                            "Bamei": "\u30dc\u30fc\u30eb\u30c9\u30db\u30fc\u30af",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5c0f\u6797\u7f8e\u99d2",
+                            "Futan": 53,
+                            "ShowProbability": 0.06802753781428553
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "2",
+                            "Bamei": "\u30d1\u30b9\u30c6\u30eb\u30c4\u30a7",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u658e\u85e4\u65b0",
+                            "Futan": 55,
+                            "ShowProbability": 0.4576354667908744
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "3",
+                            "Bamei": "\u30a8\u30af\u30bb\u30eb\u30b4\u30fc\u30eb\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e39\u5185\u7950\u6b21",
+                            "Futan": 57,
+                            "ShowProbability": 0.166999698072942
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "3",
+                            "Bamei": "\u30c7\u30a4\u30c8\u30a5\u30ea\u30e1\u30f3\u30d0\u30fc",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5c0f\u6ca2\u5927\u4ec1",
+                            "Futan": 54,
+                            "ShowProbability": 0.11448745508675645
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "4",
+                            "Bamei": "\u30ec\u30c7\u30a3\u30a2\u30de\u30be\u30cd\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5c0f\u6797\u51cc\u5927",
+                            "Futan": 53,
+                            "ShowProbability": 0.26821657750840666
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "4",
+                            "Bamei": "\u30a2\u30b9\u30af\u30b9\u30c8\u30e9\u30a4\u30af",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u79cb\u5c71\u771f\u4e00",
+                            "Futan": 57,
+                            "ShowProbability": 0.1386652637234944
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "5",
+                            "Bamei": "\u30ad\u30c3\u30c8\u30cf\u30ca\u30ac\u30b5\u30af",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4f50\u3005\u6728\u5927",
+                            "Futan": 54,
+                            "ShowProbability": 0.4820228345366176
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "5",
+                            "Bamei": "\u30b7\u30fc\u30b0\u30ea\u30f3\u30c8",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e38\u5c71\u5143\u6c17",
+                            "Futan": 55,
+                            "ShowProbability": 0.354537225179295
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "6",
+                            "Bamei": "\u30af\u30ea\u30ce\u30a2\u30c9\u30d0\u30f3\u30b9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6c38\u5cf6\u307e\u306a",
+                            "Futan": 54,
+                            "ShowProbability": 0.5563956788835208
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "6",
+                            "Bamei": "\u30a6\u30a4\u30f3\u30dc\u30ec\u30ed",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u548c\u7530\u7adc\u4e8c",
+                            "Futan": 57,
+                            "ShowProbability": 0.0801455988591087
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "7",
+                            "Bamei": "\u30a8\u30a4\u30b7\u30f3\u30ed\u30fc\u30c6\u30a4\u30c8",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u897f\u585a\u6d38\u4e8c",
+                            "Futan": 55,
+                            "ShowProbability": 0.06933872130231372
+                        },
+                        "13": {
+                            "Umaban": "14",
+                            "Wakuban": "7",
+                            "Bamei": "\u30c6\u30fc\u30aa\u30fc\u30de\u30fc\u30b7\u30e3\u30eb",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e80\u7530\u6e29\u5fc3",
+                            "Futan": 57,
+                            "ShowProbability": 0.3000217851592102
+                        },
+                        "14": {
+                            "Umaban": "15",
+                            "Wakuban": "7",
+                            "Bamei": "\u30c7\u30a3\u30a2\u30de\u30f3\u30c9\u30ed\u30c3\u30d7",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u83ca\u6ca2\u4e00\u6a39",
+                            "Futan": 55,
+                            "ShowProbability": 0.2534304527914943
+                        },
+                        "15": {
+                            "Umaban": "16",
+                            "Wakuban": "8",
+                            "Bamei": "\u30e9\u30a6\u30c9\u30ef\u30eb\u30c9",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u837b\u91ce\u6975",
+                            "Futan": 57,
+                            "ShowProbability": 0.06899502862231169
+                        },
+                        "16": {
+                            "Umaban": "17",
+                            "Wakuban": "8",
+                            "Bamei": "\u30ec\u30af\u30a8\u30eb\u30c0\u30e1",
+                            "Barei": 3,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u83f1\u7530\u88d5\u4e8c",
+                            "Futan": 55,
+                            "ShowProbability": 0.0846545350409477
+                        },
+                        "17": {
+                            "Umaban": "18",
+                            "Wakuban": "8",
+                            "Bamei": "\u30ec\u30c8\u30ed\u30bf\u30a4\u30d7",
+                            "Barei": 3,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5409\u7530\u96bc\u4eba",
+                            "Futan": 57,
+                            "ShowProbability": 0.23420187748581167
+                        }
+                    }
+                },
+                "06": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1235",
+                    "JyoCD": "10",
+                    "Jyo": "\u5c0f\u5009",
+                    "Kaiji": 2,
+                    "Nichiji": 5,
+                    "RaceNum": "06",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "1\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1800,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30c8\u30fc\u30a2\u30e9\u30a4\u30c7\u30f3",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e80\u7530\u6e29\u5fc3",
+                            "Futan": 57,
+                            "ShowProbability": 0.2298554189004389
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30e6\u30ea\u30b7\u30fc\u30ba",
+                            "Barei": 5,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u5ddd\u7aef\u6d77\u7ffc",
+                            "Futan": 55,
+                            "ShowProbability": 0.12094546194953505
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30b5\u30c8\u30ce\u30de\u30b8\u30a7\u30b9\u30bf",
+                            "Barei": 6,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u897f\u585a\u6d38\u4e8c",
+                            "Futan": 56,
+                            "ShowProbability": 0.17212384861154184
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "4",
+                            "Bamei": "\u30d5\u30ed\u30b9\u30c6\u30a3\u30af\u30a9\u30fc\u30c4",
+                            "Barei": 6,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e38\u5c71\u5143\u6c17",
+                            "Futan": 58,
+                            "ShowProbability": 0.14741755313079985
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "4",
+                            "Bamei": "\u30d5\u30a1\u30bf\u30ea\u30c6",
+                            "Barei": 8,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u9df2\u982d\u864e\u592a",
+                            "Futan": 55,
+                            "ShowProbability": 0.12041240373742065
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "5",
+                            "Bamei": "\u30b9\u30ba\u30ab\u30ad\u30f3\u30b0",
+                            "Barei": 7,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u83f1\u7530\u88d5\u4e8c",
+                            "Futan": 58,
+                            "ShowProbability": 0.1351758322602636
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "5",
+                            "Bamei": "\u30d2\u30c9\u30a5\u30f3\u30ad\u30f3\u30b0",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u9edb\u5f18\u4eba",
+                            "Futan": 58,
+                            "ShowProbability": 0.1596198563465075
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "6",
+                            "Bamei": "\u30a8\u30a4\u30c8\u30b9\u30bf\u30fc\u30ba",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6c38\u5cf6\u307e\u306a",
+                            "Futan": 52,
+                            "ShowProbability": 0.20886787227410344
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "6",
+                            "Bamei": "\u30a8\u30d4\u30e1\u30c6\u30a6\u30b9",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4f50\u3005\u6728\u5927",
+                            "Futan": 56,
+                            "ShowProbability": 0.44105039573500926
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "7",
+                            "Bamei": "\u30b7\u30e7\u30a6\u30ca\u30f3\u30a2\u30ad\u30c9\u30f3",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u677e\u672c\u5927\u8f1d",
+                            "Futan": 56,
+                            "ShowProbability": 0.3817542822165256
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "7",
+                            "Bamei": "\u30c9\u30a5\u30f4\u30a1\u30f3\u30b9\u30de\u30f3",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u85e4\u5ca1\u4f51\u4ecb",
+                            "Futan": 57,
+                            "ShowProbability": 0.1652002164003732
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "8",
+                            "Bamei": "\u30bf\u30b1\u30c8\u30f3\u30dc",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u548c\u7530\u7adc\u4e8c",
+                            "Futan": 56,
+                            "ShowProbability": 0.13142981840979345
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "8",
+                            "Bamei": "\u30b3\u30b9\u30e2\u30a8\u30af\u30b9\u30d7\u30ec\u30b9",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e39\u5185\u7950\u6b21",
+                            "Futan": 58,
+                            "ShowProbability": 0.38089553622285827
+                        }
+                    }
+                },
+                "09": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1415",
+                    "JyoCD": "10",
+                    "Jyo": "\u5c0f\u5009",
+                    "Kaiji": 2,
+                    "Nichiji": 5,
+                    "RaceNum": "09",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "1\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1200,
+                    "Title": "\u79cb\u5409\u53f0\u7279\u5225",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b3\u30b9\u30e2\u30b0\u30f3\u30b0\u30cb\u30fc\u30eb",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e39\u5185\u7950\u6b21",
+                            "Futan": 58,
+                            "ShowProbability": 0.28515869535688515
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30af\u30ea\u30ce\u30b4\u30c3\u30db",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e38\u5c71\u5143\u6c17",
+                            "Futan": 58,
+                            "ShowProbability": 0.14367258384728798
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "3",
+                            "Bamei": "\u30ec\u30c3\u30c9\u30a2\u30f4\u30a1\u30f3\u30c6\u30a3",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5409\u7530\u96bc\u4eba",
+                            "Futan": 58,
+                            "ShowProbability": 0.36467379935149924
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "3",
+                            "Bamei": "\u30a2\u30a4\u30e0\u30d5\u30a1\u30a4\u30f3",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u9edb\u5f18\u4eba",
+                            "Futan": 56,
+                            "ShowProbability": 0.27989666266050484
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "4",
+                            "Bamei": "\u30d5\u30e9\u30a4\u30f3\u30b0\u30d6\u30ec\u30fc\u30c9",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u548c\u7530\u7adc\u4e8c",
+                            "Futan": 58,
+                            "ShowProbability": 0.41893645918327493
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "4",
+                            "Bamei": "\u30b3\u30fc\u30ea\u30f3\u30b0\u30e6\u30fc",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u658e\u85e4\u65b0",
+                            "Futan": 56,
+                            "ShowProbability": 0.2453820853808299
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "5",
+                            "Bamei": "\u30c7\u30a3\u30a2\u30c9\u30b3\u30b9",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u677e\u672c\u5927\u8f1d",
+                            "Futan": 58,
+                            "ShowProbability": 0.15698366851708753
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "5",
+                            "Bamei": "\u30a4\u30f3\u30af\u30eb\u30fc\u30c9\u30c0\u30a4\u30e4",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u85e4\u5ca1\u4f51\u4ecb",
+                            "Futan": 56,
+                            "ShowProbability": 0.17619789408108374
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "6",
+                            "Bamei": "\u30a4\u30df\u30e5\u30fc\u30bf\u30d6\u30eb",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4f50\u3005\u6728\u5927",
+                            "Futan": 58,
+                            "ShowProbability": 0.12366927505288651
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "6",
+                            "Bamei": "\u30d5\u30ea\u30f3\u30c8\u30ed\u30c3\u30af",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u83ca\u6ca2\u4e00\u6a39",
+                            "Futan": 56,
+                            "ShowProbability": 0.16526976351898026
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "7",
+                            "Bamei": "\u30bd\u30ce\u30de\u30de\u30bd\u30ce\u30de\u30de",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6cc9\u8c37\u6953\u771f",
+                            "Futan": 56,
+                            "ShowProbability": 0.1629749023311991
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "7",
+                            "Bamei": "\u30a6\u30a4\u30f3\u30a8\u30a4\u30e0\u30cf\u30a4",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5c0f\u6797\u51cc\u5927",
+                            "Futan": 58,
+                            "ShowProbability": 0.10911375018355961
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "8",
+                            "Bamei": "\u30e1\u30a4\u30b7\u30e7\u30a6\u30b3\u30ae\u30af",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5bcc\u7530\u6681",
+                            "Futan": 56,
+                            "ShowProbability": 0.23029580444409473
+                        },
+                        "13": {
+                            "Umaban": "14",
+                            "Wakuban": "8",
+                            "Bamei": "\u30ed\u30c3\u30bd\u30e9\u30f3\u30d1\u30f3\u30c6",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4f50\u85e4\u7fd4\u99ac",
+                            "Futan": 56,
+                            "ShowProbability": 0.11560935043494706
+                        }
+                    }
+                },
+                "11": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1525",
+                    "JyoCD": "10",
+                    "Jyo": "\u5c0f\u5009",
+                    "Kaiji": 2,
+                    "Nichiji": 5,
+                    "RaceNum": "11",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "2\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 2000,
+                    "Title": "\u516b\u4ee3\u7279\u5225",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30b3\u30b9\u30e2\u30d5\u30ed\u30a4\u30c7",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5bcc\u7530\u6681",
+                            "Futan": 56,
+                            "ShowProbability": 0.3718758904900574
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "2",
+                            "Bamei": "\u30c1\u30e5\u30a6\u30ef\u30e2\u30fc\u30cb\u30f3\u30b0",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5c0f\u5d0e\u7dbe\u4e5f",
+                            "Futan": 51,
+                            "ShowProbability": 0.1038126291153355
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "2",
+                            "Bamei": "\u30e4\u30de\u30cb\u30f3\u30eb\u30fc\u30d7",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u6c38\u5cf6\u307e\u306a",
+                            "Futan": 55,
+                            "ShowProbability": 0.2587041146748921
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "3",
+                            "Bamei": "\u30de\u30a4\u30cd\u30eb\u30e1\u30e2\u30ea\u30fc",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5409\u7530\u96bc\u4eba",
+                            "Futan": 56,
+                            "ShowProbability": 0.54732778630592
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "3",
+                            "Bamei": "\u30c7\u30a3\u30fc\u30d7\u30ec\u30a4\u30e4\u30fc",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4f50\u3005\u6728\u5927",
+                            "Futan": 56,
+                            "ShowProbability": 0.3184511020360814
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "4",
+                            "Bamei": "\u30ec\u30df\u30fc\u30b8\u30e5",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u837b\u91ce\u6975",
+                            "Futan": 53,
+                            "ShowProbability": 0.20924817542858923
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "4",
+                            "Bamei": "\u30de\u30ea\u30cd\u30ed",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e39\u5185\u7950\u6b21",
+                            "Futan": 53,
+                            "ShowProbability": 0.5511851483312995
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "5",
+                            "Bamei": "\u30a2\u30c8\u30df\u30c3\u30af\u30d5\u30ec\u30a2",
+                            "Barei": 6,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6cc9\u8c37\u6953\u771f",
+                            "Futan": 54,
+                            "ShowProbability": 0.35952386312223217
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "5",
+                            "Bamei": "\u30af\u30ea\u30ce\u30ad\u30f3\u30b0\u30dc\u30b9",
+                            "Barei": 7,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u57ce\u6238\u7fa9\u653f",
+                            "Futan": 50,
+                            "ShowProbability": 0.09289316222674548
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "6",
+                            "Bamei": "\u30db\u30a6\u30aa\u30a6\u30e6\u30cb\u30b3\u30fc\u30f3",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e38\u5c71\u5143\u6c17",
+                            "Futan": 55,
+                            "ShowProbability": 0.22292748780858163
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "6",
+                            "Bamei": "\u30d2\u30eb\u30ce\u30a8\u30c9\u30ef\u30fc\u30c9",
+                            "Barei": 7,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u52dd\u6d66\u6b63\u6a39",
+                            "Futan": 54,
+                            "ShowProbability": 0.1136145911335707
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "7",
+                            "Bamei": "\u30b9\u30ba\u30ab\u30cf\u30fc\u30d3\u30f3",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u83f1\u7530\u88d5\u4e8c",
+                            "Futan": 54,
+                            "ShowProbability": 0.13635727455640007
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "7",
+                            "Bamei": "\u30c6\u30ea\u30aa\u30b9\u30de\u30ca",
+                            "Barei": 6,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u548c\u7530\u7adc\u4e8c",
+                            "Futan": 53,
+                            "ShowProbability": 0.2949468639814223
+                        },
+                        "13": {
+                            "Umaban": "14",
+                            "Wakuban": "8",
+                            "Bamei": "\u30b3\u30eb\u30d9\u30a4\u30e6",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u77f3\u7530\u62d3\u90ce",
+                            "Futan": 52,
+                            "ShowProbability": 0.11848159228147244
+                        },
+                        "14": {
+                            "Umaban": "15",
+                            "Wakuban": "8",
+                            "Bamei": "\u30c0\u30c7\u30a3\u30fc\u30ba\u30c8\u30ea\u30c3\u30d7",
+                            "Barei": 8,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u79cb\u5c71\u771f\u4e00",
+                            "Futan": 55,
+                            "ShowProbability": 0.12498549567087647
+                        }
+                    }
+                },
+                "12": {
+                    "Year": "2024",
+                    "MonthDay": "0224",
+                    "HassoTime": "1600",
+                    "JyoCD": "10",
+                    "Jyo": "\u5c0f\u5009",
+                    "Kaiji": 2,
+                    "Nichiji": 5,
+                    "RaceNum": "12",
+                    "Syubetu": "4\u6b73\u4ee5\u4e0a",
+                    "Jyoken": "1\u52dd\u30af\u30e9\u30b9",
+                    "Kyori": 1200,
+                    "Title": "",
+                    "uma": {
+                        "0": {
+                            "Umaban": "01",
+                            "Wakuban": "1",
+                            "Bamei": "\u30ef\u30f3\u30ea\u30aa\u30f3",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4e80\u7530\u6e29\u5fc3",
+                            "Futan": 58,
+                            "ShowProbability": 0.29950178390771126
+                        },
+                        "1": {
+                            "Umaban": "02",
+                            "Wakuban": "1",
+                            "Bamei": "\u30a2\u30af\u30a2\u30de\u30ea\u30f3\u30d6\u30eb\u30fc",
+                            "Barei": 6,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u83ca\u6ca2\u4e00\u6a39",
+                            "Futan": 58,
+                            "ShowProbability": 0.13046367561740294
+                        },
+                        "2": {
+                            "Umaban": "03",
+                            "Wakuban": "2",
+                            "Bamei": "\u30b7\u30e7\u30c3\u30ad\u30f3\u30b0\u30d6\u30eb\u30fc",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u677e\u672c\u5927\u8f1d",
+                            "Futan": 55,
+                            "ShowProbability": 0.13132278187070126
+                        },
+                        "3": {
+                            "Umaban": "04",
+                            "Wakuban": "2",
+                            "Bamei": "\u30d1\u30ef\u30dd\u30b1\u30d3\u30fc",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u837b\u91ce\u6975",
+                            "Futan": 56,
+                            "ShowProbability": 0.15565196215531685
+                        },
+                        "4": {
+                            "Umaban": "05",
+                            "Wakuban": "3",
+                            "Bamei": "\u30a2\u30c9\u30de\u30a4\u30e4\u30b8\u30a7\u30a4",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u85e4\u5ca1\u5eb7\u592a",
+                            "Futan": 58,
+                            "ShowProbability": 0.3555717618143169
+                        },
+                        "5": {
+                            "Umaban": "06",
+                            "Wakuban": "3",
+                            "Bamei": "\u30db\u30a4\u30c3\u30b9\u30eb\u30bd\u30f3\u30b0",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4e39\u5185\u7950\u6b21",
+                            "Futan": 56,
+                            "ShowProbability": 0.25406299511158326
+                        },
+                        "6": {
+                            "Umaban": "07",
+                            "Wakuban": "4",
+                            "Bamei": "\u30ab\u30d5\u30a7\u30af\u30ed\u30cb\u30af\u30eb",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u83f1\u7530\u88d5\u4e8c",
+                            "Futan": 58,
+                            "ShowProbability": 0.18582649933896023
+                        },
+                        "7": {
+                            "Umaban": "08",
+                            "Wakuban": "4",
+                            "Bamei": "\u30b5\u30eb\u30b5\u30ed\u30c3\u30b5",
+                            "Barei": 5,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6cb3\u539f\u7530\u83dc",
+                            "Futan": 52,
+                            "ShowProbability": 0.1317439699036112
+                        },
+                        "8": {
+                            "Umaban": "09",
+                            "Wakuban": "5",
+                            "Bamei": "\u30af\u30ea\u30ce\u30a2\u30f3\u30d3\u30b7\u30e3\u30b9",
+                            "Barei": 6,
+                            "Sex": "\u9a19",
+                            "Kisyumei": "\u57ce\u6238\u7fa9\u653f",
+                            "Futan": 58,
+                            "ShowProbability": 0.11208128938753166
+                        },
+                        "9": {
+                            "Umaban": "10",
+                            "Wakuban": "5",
+                            "Bamei": "\u30df\u30cd\u30d2\u30e1",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6c34\u6cbc\u5143\u8f1d",
+                            "Futan": 53,
+                            "ShowProbability": 0.15673976893681685
+                        },
+                        "10": {
+                            "Umaban": "11",
+                            "Wakuban": "6",
+                            "Bamei": "\u30e1\u30ea\u30c8\u30ea\u30aa",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u4f50\u3005\u6728\u5927",
+                            "Futan": 57,
+                            "ShowProbability": 0.1970635230125125
+                        },
+                        "11": {
+                            "Umaban": "12",
+                            "Wakuban": "6",
+                            "Bamei": "\u30a2\u30a6\u30af\u30bd\u30fc",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u5c0f\u6797\u7f8e\u99d2",
+                            "Futan": 52,
+                            "ShowProbability": 0.11907085535775253
+                        },
+                        "12": {
+                            "Umaban": "13",
+                            "Wakuban": "7",
+                            "Bamei": "\u30ea\u30c8\u30eb\u30df\u30e0",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u658e\u85e4\u65b0",
+                            "Futan": 56,
+                            "ShowProbability": 0.18095092779581973
+                        },
+                        "13": {
+                            "Umaban": "14",
+                            "Wakuban": "7",
+                            "Bamei": "\u30aa\u30ea\u30a2\u30e1\u30f3\u30c7\u30a3",
+                            "Barei": 6,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u9edb\u5f18\u4eba",
+                            "Futan": 56,
+                            "ShowProbability": 0.19034799532618327
+                        },
+                        "14": {
+                            "Umaban": "15",
+                            "Wakuban": "7",
+                            "Bamei": "\u30de\u30c6\u30f3\u30ed\u30a6\u30dc\u30f3\u30c9",
+                            "Barei": 5,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u85e4\u5ca1\u4f51\u4ecb",
+                            "Futan": 58,
+                            "ShowProbability": 0.19268389528635216
+                        },
+                        "15": {
+                            "Umaban": "16",
+                            "Wakuban": "8",
+                            "Bamei": "\u30ce\u30fc\u30d6\u30eb\u30e9\u30f3",
+                            "Barei": 4,
+                            "Sex": "\u7261",
+                            "Kisyumei": "\u5c0f\u6797\u51cc\u5927",
+                            "Futan": 56,
+                            "ShowProbability": 0.10949339125494532
+                        },
+                        "16": {
+                            "Umaban": "17",
+                            "Wakuban": "8",
+                            "Bamei": "\u30b7\u30eb\u30d0\u30fc\u30c0\u30a4\u30e4",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u4f50\u85e4\u7fd4\u99ac",
+                            "Futan": 53,
+                            "ShowProbability": 0.13586994076466136
+                        },
+                        "17": {
+                            "Umaban": "18",
+                            "Wakuban": "8",
+                            "Bamei": "\u30cf\u30af\u30b5\u30f3\u30df\u30cb\u30e7\u30f3",
+                            "Barei": 4,
+                            "Sex": "\u725d",
+                            "Kisyumei": "\u6c38\u5cf6\u307e\u306a",
+                            "Futan": 53,
+                            "ShowProbability": 0.20576322110285336
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

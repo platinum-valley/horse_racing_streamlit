@@ -4,6 +4,7 @@ import pandas as pd
 
 
 class HorsePillar:
+
     _jyo_cd_to_jyo = {
         "01": "札幌",
         "02": "函館",
@@ -16,16 +17,23 @@ class HorsePillar:
         "09": "阪神",
         "10": "小倉",
     }
+    _jyo_to_jyo_cd = {value: key for key, value in _jyo_cd_to_jyo.items()}
 
     def __init__(
-        self, json: Dict[str, Dict[str, Dict[str, Dict[str, List[Dict[str, Any]]]]]]
+        self,
+        json: Dict[str, Dict[str, Dict[str, Dict[str, List[Dict[str, Any]]]]]],
     ):
         self._json_horse_pillar = json
         self._year = list(self._json_horse_pillar.keys())[0]
         self._monthday = list(self._json_horse_pillar[self._year].keys())[0]
-        self._jyo = list(self._json_horse_pillar[self._year][self._monthday].keys())[0]
+        self._jyo_cd = list(
+            self._json_horse_pillar[self._year][self._monthday].keys()
+        )[0]
+        self._jyo = self._jyo_cd_to_jyo[self._jyo_cd]
         self._race_num = list(
-            self._json_horse_pillar[self._year][self._monthday][self._jyo].keys()
+            self._json_horse_pillar[self._year][self._monthday][
+                self._jyo_cd
+            ].keys()
         )[0]
 
     def get_horse_pillar(self) -> pd.DataFrame:
@@ -35,9 +43,9 @@ class HorsePillar:
             pd.DataFrame: 馬柱
         """
         if self._has_horse_pillar():
-            return self._json_horse_pillar[self._year][self._monthday][self._jyo][
-                self._race_num
-            ]
+            return self._json_horse_pillar[self._year][self._monthday][
+                self._jyo_cd
+            ][self._race_num]
         else:
             return {}
 
@@ -51,13 +59,16 @@ class HorsePillar:
         self._year = year
         self._year = self._correct_invalid_key(year, self.year_list)
         self._monthday = monthday
-        self._monthday = self._correct_invalid_key(monthday, self.monthday_list)
+        self._monthday = self._correct_invalid_key(
+            monthday, self.monthday_list
+        )
         self._jyo = jyo
         self._jyo = self._correct_invalid_key(jyo, self.jyo_list)
+        self._jyo_cd = self._jyo_to_jyo_cd[self._jyo]
         self._race_num = race_num
-        self._race_num = self._correct_invalid_key(race_num, self.race_num_list)
-
-        print("set", self._year, self._monthday, self._jyo, self._race_num)
+        self._race_num = self._correct_invalid_key(
+            race_num, self.race_num_list
+        )
 
     def _has_horse_pillar(self) -> bool:
         """年、月日、競馬場、レース番号の馬柱がある場合Trueを返す
@@ -67,7 +78,7 @@ class HorsePillar:
         """
         if self._year in self.year_list:
             if self._monthday in self.monthday_list:
-                if self._jyo in self.jyo_list:
+                if self._jyo_cd in self.jyo_cd_list:
                     if self._race_num in self.race_num_list:
                         return True
 
@@ -86,6 +97,10 @@ class HorsePillar:
         return self._jyo
 
     @property
+    def jyo_cd(self):
+        return self._jyo_cd
+
+    @property
     def race_num(self):
         return self._race_num
 
@@ -98,11 +113,22 @@ class HorsePillar:
         return list(self._json_horse_pillar[self._year].keys())
 
     @property
-    def jyo_list(self):
+    def jyo_cd_list(self):
         return list(self._json_horse_pillar[self._year][self._monthday].keys())
+
+    @property
+    def jyo_list(self):
+        return [
+            self._jyo_cd_to_jyo[jyo]
+            for jyo in list(
+                self._json_horse_pillar[self._year][self._monthday].keys()
+            )
+        ]
 
     @property
     def race_num_list(self):
         return list(
-            self._json_horse_pillar[self._year][self._monthday][self._jyo].keys()
+            self._json_horse_pillar[self._year][self._monthday][
+                self._jyo_cd
+            ].keys()
         )

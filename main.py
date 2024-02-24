@@ -1,13 +1,15 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
+from st_aggrid import AgGrid, AgGridTheme, GridUpdateMode
+from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 from src.horse_pillar import HorsePillar
 from src.read_race import RaceReader
 
 
 def main():
-    json = RaceReader.read("race.json")
+    json = RaceReader.read("pred_streamlit.json")
     horse_pillar = HorsePillar(json)
 
     if "horse_pillar" not in st.session_state:
@@ -89,7 +91,66 @@ def main():
         # [NOTE] ブラウザ上
         st.rerun()
 
-    st.dataframe(st.session_state["horse_pillar"].get_horse_pillar())
+    def parse_json(json):
+        race = {key: json[key] for key in json.keys() if "uma" not in key}
+        uma = pd.DataFrame(json["uma"]).T
+        return race, uma
+
+    race, uma = parse_json(st.session_state["horse_pillar"].get_horse_pillar())
+    df = uma
+    df["Enable"] = ""
+    df["ShowProbability"] = df["ShowProbability"].apply(lambda x: "{:.3f}".format(x))
+    df = df[
+        [
+            "Enable",
+            "Wakuban",
+            "Umaban",
+            "Bamei",
+            "Sex",
+            "Kisyumei",
+            "Futan",
+            "ShowProbability",
+        ]
+    ].astype(str)
+    df = df.rename(
+        columns={
+            "Wakuban": "枠番",
+            "Umaban": "馬番",
+            "Bamei": "馬名",
+            "Sex": "性別",
+            "Kisyumei": "騎手名",
+            "Futan": "斤量",
+            "ShowProbability": "複勝確率",
+        }
+    )
+
+    gb = GridOptionsBuilder.from_dataframe(df)
+    gb.configure_selection(
+        selection_mode="multiple", use_checkbox=True, pre_select_all_rows=True
+    )
+    for col in df.columns:
+        max_length = df[col].map(len).max()
+        # 最大文字数に基づいて幅を設定（例: 1文字あたり10ピクセル + 30ピクセルのマージン）
+        col_width = str(max_length * 15 + 50)
+        gb.configure_column(col, width=col_width)
+
+    grid_options = gb.build()
+
+    st.subheader(
+        race["Title"] if race["Title"] != "" else f"{race['Syubetu']} {race['Jyoken']}"
+    )
+    st.write(f"{race['Syubetu']} {race['Jyoken']}" if race["Title"] != "" else "")
+    st.write(f"発走時刻 {race['HassoTime'][:2]}:{race['HassoTime'][2:]}")
+    st.write(f"芝 {race['Kyori']}m")
+
+    # AgGridにグリッドオプションを渡して、データフレームを表示
+    grid_table = AgGrid(
+        df,
+        gridOptions=grid_options,
+        theme="streamlit",
+        update_mode=GridUpdateMode.SELECTION_CHANGED,
+        fit_columns_on_grid_load=False,
+    )
 
 
 if __name__ == "__main__":
