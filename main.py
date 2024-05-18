@@ -1,7 +1,6 @@
-import numpy as np
 import pandas as pd
 import streamlit as st
-from st_aggrid import AgGrid, AgGridTheme, GridUpdateMode
+from st_aggrid import AgGrid, GridUpdateMode
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 from src.horse_pillar import HorsePillar
@@ -42,7 +41,9 @@ def main():
             st.session_state["selected_race_num"],
         )
         # セットした情報をstreamlit上に反映
-        st.session_state["selected_year"] = st.session_state["horse_pillar"].year
+        st.session_state["selected_year"] = st.session_state[
+            "horse_pillar"
+        ].year
         st.session_state["selected_monthday"] = st.session_state[
             "horse_pillar"
         ].monthday
@@ -52,11 +53,15 @@ def main():
         ].race_num
 
         # select boxで表示するリスト
-        st.session_state["year_list"] = st.session_state["horse_pillar"].year_list
+        st.session_state["year_list"] = st.session_state[
+            "horse_pillar"
+        ].year_list
         st.session_state["monthday_list"] = st.session_state[
             "horse_pillar"
         ].monthday_list
-        st.session_state["jyo_list"] = st.session_state["horse_pillar"].jyo_list
+        st.session_state["jyo_list"] = st.session_state[
+            "horse_pillar"
+        ].jyo_list
         st.session_state["race_num_list"] = st.session_state[
             "horse_pillar"
         ].race_num_list
@@ -99,27 +104,30 @@ def main():
     race, uma = parse_json(st.session_state["horse_pillar"].get_horse_pillar())
     df = uma
     df["Enable"] = ""
-    df["ShowProbability"] = df["ShowProbability"].apply(lambda x: "{:.3f}".format(x))
+    df["WinProbability"] = df["WinProbability"].apply(
+        lambda x: "{:.3f}".format(x)
+    )
+    df["ShowProbability"] = df["ShowProbability"].apply(
+        lambda x: "{:.3f}".format(x)
+    )
     df = df[
         [
             "Enable",
-            "Wakuban",
             "Umaban",
             "Bamei",
             "Sex",
             "Kisyumei",
-            "Futan",
+            "WinProbability",
             "ShowProbability",
         ]
     ].astype(str)
     df = df.rename(
         columns={
-            "Wakuban": "枠番",
             "Umaban": "馬番",
             "Bamei": "馬名",
             "Sex": "性別",
             "Kisyumei": "騎手名",
-            "Futan": "斤量",
+            "WinProbability": "単勝確率",
             "ShowProbability": "複勝確率",
         }
     )
@@ -137,9 +145,13 @@ def main():
     grid_options = gb.build()
 
     st.subheader(
-        race["Title"] if race["Title"] != "" else f"{race['Syubetu']} {race['Jyoken']}"
+        race["Title"]
+        if race["Title"] != ""
+        else f"{race['Syubetu']} {race['Jyoken']}"
     )
-    st.write(f"{race['Syubetu']} {race['Jyoken']}" if race["Title"] != "" else "")
+    st.write(
+        f"{race['Syubetu']} {race['Jyoken']}" if race["Title"] != "" else ""
+    )
     st.write(f"発走時刻 {race['HassoTime'][:2]}:{race['HassoTime'][2:]}")
     st.write(f"芝 {race['Kyori']}m")
 
