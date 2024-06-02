@@ -115,8 +115,6 @@ def main():
             "Enable",
             "Umaban",
             "Bamei",
-            "Sex",
-            "Kisyumei",
             "WinProbability",
             "ShowProbability",
         ]
@@ -125,8 +123,6 @@ def main():
         columns={
             "Umaban": "馬番",
             "Bamei": "馬名",
-            "Sex": "性別",
-            "Kisyumei": "騎手名",
             "WinProbability": "単勝確率",
             "ShowProbability": "複勝確率",
         }
