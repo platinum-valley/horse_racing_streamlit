@@ -16,15 +16,19 @@ def main():
     # セッション状態の初期化（初回のみ実行）
     if "year_list" not in st.session_state:
         st.session_state["year_list"] = horse_pillar.year_list
+        st.session_state["selected_year"] = horse_pillar.year_list[0]
 
     if "monthday_list" not in st.session_state:
         st.session_state["monthday_list"] = horse_pillar.monthday_list
+        st.session_state["selected_monthday"] = horse_pillar.monthday_list[0]
 
     if "jyo_list" not in st.session_state:
         st.session_state["jyo_list"] = horse_pillar.jyo_list
+        st.session_state["selected_jyo"] = horse_pillar.jyo_list[0]
 
     if "race_num_list" not in st.session_state:
         st.session_state["race_num_list"] = horse_pillar.race_num_list
+        st.session_state["selected_race_num"] = horse_pillar.race_num_list[0]
 
     if "change_select_box" not in st.session_state:
         st.session_state["change_select_box"] = False
@@ -52,7 +56,6 @@ def main():
             "horse_pillar"
         ].race_num
 
-        # select boxで表示するリスト
         st.session_state["year_list"] = st.session_state[
             "horse_pillar"
         ].year_list
@@ -70,24 +73,36 @@ def main():
         label="年",
         options=st.session_state.year_list,
         on_change=check_changing_select_box,
+        index=st.session_state.year_list.index(
+            st.session_state["selected_year"]
+        ),
     )
 
     st.session_state["selected_monthday"] = st.selectbox(
         label="月日",
         options=st.session_state.monthday_list,
         on_change=check_changing_select_box,
+        index=st.session_state.monthday_list.index(
+            st.session_state["selected_monthday"]
+        ),
     )
 
     st.session_state["selected_jyo"] = st.selectbox(
         label="競技場",
         options=st.session_state.jyo_list,
         on_change=check_changing_select_box,
+        index=st.session_state.jyo_list.index(
+            st.session_state["selected_jyo"]
+        ),
     )
 
     st.session_state["selected_race_num"] = st.selectbox(
         label="レース番号",
         options=st.session_state.race_num_list,
         on_change=check_changing_select_box,
+        index=st.session_state.race_num_list.index(
+            st.session_state["selected_race_num"]
+        ),
     )
 
     if st.session_state["change_select_box"]:
