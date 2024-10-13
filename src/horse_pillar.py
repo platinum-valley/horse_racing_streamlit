@@ -43,6 +43,7 @@ class HorsePillar:
             pd.DataFrame: 馬柱
         """
         if self._has_horse_pillar():
+
             return self._json_horse_pillar[self._year][self._monthday][
                 self._jyo_cd
             ][self._race_num]
