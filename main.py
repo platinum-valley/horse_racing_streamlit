@@ -118,9 +118,6 @@ def main():
     df["単勝確率"] = df["単勝確率"].map("{:.3f}".format)
     df["複勝確率"] = df["複勝確率"].map("{:.3f}".format)
 
-    # 'Enable' 列でフィルタリングを削除
-    # df = df[df["Enable"] == "True"].reset_index(drop=True)  # この行をコメントアウトまたは削除
-
     # レース情報の表示
     st.subheader(
         race["Title"]
