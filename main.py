@@ -5,11 +5,13 @@ from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 from src.horse_pillar import HorsePillar
 from src.read_race import RaceReader
+from src.trifica_recomender import TrifectaRecommender
 
 
 def main():
     json = RaceReader.read("pred_streamlit.json")
     horse_pillar = HorsePillar(json)
+    recommender = TrifectaRecommender()
 
     # セッション状態の初期化関数
     def initialize_session_state(key, default):
@@ -129,56 +131,108 @@ def main():
     st.write(f"発走時刻 {race['HassoTime'][:2]}:{race['HassoTime'][2:]}")
     st.write(f"芝 {race['Kyori']}m")
 
-    # dfをセッション状態に保存
-    st.session_state["df"] = df[
-        ["馬番", "馬名", "単勝確率", "複勝確率"]
-    ]  # 追加
+    # 2カラムレイアウトの作成
+    col1, col2 = st.columns([6, 4])
+
+    # AgGrid用のデータフレームを準備
+    grid_df = df[["Enable", "馬番", "馬名", "単勝確率", "複勝確率"]].copy()
 
     # AgGrid用の設定
-    gb = GridOptionsBuilder.from_dataframe(df)
-    gb.configure_selection(
-        selection_mode="multiple",
-        use_checkbox=True,
+    gb = GridOptionsBuilder.from_dataframe(grid_df)
+
+    # グリッドのオプション設定
+    gb.configure_grid_options(
+        pagination=True,  # ページネーションを有効化
+        paginationPageSize=20,  # 1ページあたりの行数を50に設定
+        domLayout="normal",  # 'normal'または'autoHeight'を指定
     )
-    gb.configure_pagination(paginationAutoPageSize=True)
+
+    # その他の既存の設定
     gb.configure_default_column(
-        sortable=True,
-        filter=True,
-        resizable=True,
+        resizable=True, filterable=False, sorteable=False, editable=False
     )
 
-    # EnableがTrueの行にチェックを入れる
-    pre_selected_rows = {umaban: umaban for umaban in df[df["Enable"]].index}
+    # 列の設定
+    gb.configure_column(
+        "Enable",
+        headerCheckboxSelection=False,  # ヘッダーにチェックボックスを表示
+        checkboxSelection=False,  # 各行にチェックボックスを表示
+        headerCheckboxSelectionFilteredOnly=False,
+        width=50,
+        hide=False,  # Enable列自体は非表示
+    )
+    gb.configure_column("馬番", width=100)
+    gb.configure_column("馬名", width=200)
+    gb.configure_column("単勝確率", width=120)
+    gb.configure_column("複勝確率", width=120)
 
-    gb.configure_column("Enable", hide=True)
-
-    # 列幅を自動調整するための設定
-    gb.configure_column("馬番", width=100)  # 馬番の幅を設定
-    gb.configure_column("馬名", width=200)  # 馬名の幅を設定
-    gb.configure_column("単勝確率", width=120)  # 単勝確率の幅を設定
-    gb.configure_column("複勝確率", width=120)  # 複勝確率の幅を設定
-
-    gb.configure_selection(
-        selection_mode="multiple",
-        use_checkbox=True,
-        pre_selected_rows=pre_selected_rows,
+    # 選択行の初期値を設定
+    gb.configure_grid_options(
+        suppressRowClickSelection=True,  # チェックボックスのみで選択できるようにする
+        rowSelection="multiple",  # 複数選択を許可
+        preSelectedRows=grid_df[
+            grid_df["Enable"]
+        ].index.tolist(),  # Enableがtrueの行を事前選択
     )
 
     grid_options = gb.build()
 
-    # AgGridの表示
-    grid_response = AgGrid(
-        st.session_state["df"],
-        gridOptions=grid_options,
-        update_mode=GridUpdateMode.SELECTION_CHANGED,
-        allow_unsafe_jscode=True,  # 必要に応じて設定
-    )
+    with col1:
+        # AgGridの表示（高さを調整）
+        grid_response = AgGrid(
+            grid_df,
+            gridOptions=grid_options,
+            update_mode=GridUpdateMode.SELECTION_CHANGED,
+            fit_columns_on_grid_load=True,
+            allow_unsafe_jscode=True,
+            theme="streamlit",
+            height=400,  # 高さを調整
+        )
 
-    # 選択された行の取得
-    selected = grid_response["selected_rows"]
-    st.session_state["selected_rows"] = selected
+    with col2:
+        # 三連複馬券の推薦を表示
+        st.subheader("🎫 三連複馬券の推奨買い目")
 
-    st.write("選択された馬:", st.session_state["selected_rows"])
+        # レースデータを取得して推薦を計算
+        race_data = {
+            str(i): {
+                "Umaban": row["馬番"],
+                "Enable": row["Enable"],
+                "ShowProbability": float(row["複勝確率"]),
+            }
+            for i, row in grid_df.iterrows()
+        }
+
+        result = recommender.recommend_trifecta_bet(race_data)
+
+        # 結果の表示
+        if result["formation_type"]:
+            st.write(f"**購入タイプ**: {result['formation_type']}")
+            st.write(f"**購入点数**: {result['ticket_count']}点")
+
+            if result["favorite"]:
+                st.write(
+                    "**メイン軸馬**: "
+                    + ", ".join([f"[{num}]番" for num in result["favorite"]])
+                )
+            if result["second_favorite"]:
+                st.write(
+                    "**相手軸馬**: "
+                    + ", ".join(
+                        [f"[{num}]番" for num in result["second_favorite"]]
+                    )
+                )
+            if result["other"]:
+                st.write(
+                    "**紐**: "
+                    + ", ".join([f"[{num}]番" for num in result["other"]])
+                )
+        else:
+            st.warning(result.get("message", "推奨買い目はありません"))
+
+    # 選択された行を取得
+    selected_rows = grid_response["selected_rows"]
+    st.session_state["selected_rows"] = selected_rows
 
 
 if __name__ == "__main__":
